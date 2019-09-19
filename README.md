@@ -26,6 +26,8 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 
 **a. What voltage values do you see from your force sensor?**
 
+0 when its not pressed to 1000 when I fully press it
+
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
