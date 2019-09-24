@@ -45,6 +45,8 @@ I used the 10k resistor and got reasonable ranges for each of the sensors.
  
 **a. Include your accelerometer read-out code in your write-up.**
 
+[My LED Accelerometer Code]https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/LED_Accelerometer.ino
+
 ### 3. IR Proximity Sensor
 
 **a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
