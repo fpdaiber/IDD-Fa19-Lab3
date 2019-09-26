@@ -56,7 +56,7 @@ The flex sensor and FSR seemed to have a logarithmic relationship, the photosens
 
 ![alt text](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/IMG_2414.jpg)
  
-[Accelerometer Readout Code](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/Accelerometer_Readout.ino)
+[Accelerometer Readout Code](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/Accelormeter_Readout.ino)
 
 [My LED Accelerometer Code](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/LED_Accelerometer.ino)
 
@@ -108,7 +108,8 @@ The put method lets us split data bigger than a byte and store the data in multi
 
 I have changed the write and read example code so that the accelerometer's x variable is converted and stored into the memory and then read out. It does that in a loop every 2 seconds. 
 
-[My Data Logger](https://drive.google.com/open?id=1TAHan60fghWIMEWZ-vNUmiHDqy9LhT3R)
+[My Data Logger Video](https://drive.google.com/open?id=1TAHan60fghWIMEWZ-vNUmiHDqy9LhT3R)
 
 [Data Logger Code](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/Data_logger.ino)
+
 [Data Logger Supplementary Code](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/clear.ino)
