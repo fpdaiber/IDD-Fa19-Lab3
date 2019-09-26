@@ -26,7 +26,11 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
  
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
 
-[]
+[Photo cell Video](https://drive.google.com/open?id=1DjW83KqeYk6Wxkmnn9uQT6XsC6OcUsjh)
+
+[Softpod Video](https://drive.google.com/open?id=1aBb9JqV09UNu4T3Pooz885IwiTtsQge3)
+
+![alt text](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/IMG_2409.jpg)
 
 **a. What voltage values do you see from your force sensor?**
 
@@ -49,6 +53,8 @@ I used the 10k resistor and got reasonable ranges for each of the sensors.
 The flex sensor and FSR seemed to have a logarithmic relationship, the photosensor seemed more like a linear one.
 
 ### 2. Accelerometer
+
+![alt text](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/IMG_2414.jpg)
  
 [Accelerometer Readout Code](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/Accelerometer_Readout.ino)
 
@@ -61,6 +67,8 @@ The flex sensor and FSR seemed to have a logarithmic relationship, the photosens
 ## Optional. Graphic Display
 
 ![alt text](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/IMG_2431.jpg)
+
+[Accelerometer Display Readout](https://drive.google.com/open?id=1neTwpgaFd-oVpgv9QMFJmRIcQVswRHfI)
 
 ## Part D. Logging values to the EEPROM and reading them back
  
@@ -88,6 +96,8 @@ The put method lets us split data bigger than a byte and store the data in multi
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
+[Data Logger](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/Data_logger.ino)
+
 ### 2. Design your logger
  
 ![alt text](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/IMG_2438.jpg)
@@ -99,3 +109,6 @@ The put method lets us split data bigger than a byte and store the data in multi
 I have changed the write and read example code so that the accelerometer's x variable is converted and stored into the memory and then read out. It does that in a loop every 2 seconds. 
 
 [My Data Logger](https://drive.google.com/open?id=1TAHan60fghWIMEWZ-vNUmiHDqy9LhT3R)
+
+[Data Logger Code](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/Data_logger.ino)
+[Data Logger Supplementary Code](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/clear.ino)
