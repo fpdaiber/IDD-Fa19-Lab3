@@ -20,11 +20,13 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 
 **How might you use this with only the parts in your kit? Show us your solution.**
 
-[My LED Video]
+[My LED Video](https://drive.google.com/open?id=1SRsN0FYcIjWrv73loGzUpagxaswRwJ33)
 
 ## Part C. Voltage Varying Sensors 
  
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
+
+[]
 
 **a. What voltage values do you see from your force sensor?**
 
@@ -48,19 +50,17 @@ The flex sensor and FSR seemed to have a logarithmic relationship, the photosens
 
 ### 2. Accelerometer
  
-**a. Include your accelerometer read-out code in your write-up.**
+[Accelerometer Readout Code](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/Accelerometer_Readout.ino)
 
-[My LED Accelerometer Code]https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/LED_Accelerometer.ino
+[My LED Accelerometer Code](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/LED_Accelerometer.ino)
 
-### 3. IR Proximity Sensor
+[My Accelerometer Video](https://drive.google.com/open?id=1gqXsrwhZ9OIs06ask1yJv-BFlyHW9U0M)
 
-**a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
-
-**b. Upload your merged code to your lab report repository and link to it here.**
+[My LED Accelerometer Video](https://drive.google.com/open?id=1L6ip1XDxxLvCXOJw2VP8_syrSmLQGZ-4)
 
 ## Optional. Graphic Display
 
-**Take a picture of your screen working insert it here!**
+![alt text](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/IMG_2431.jpg)
 
 ## Part D. Logging values to the EEPROM and reading them back
  
@@ -90,8 +90,12 @@ The put method lets us split data bigger than a byte and store the data in multi
 
 ### 2. Design your logger
  
-**a. Insert here a copy of your final state diagram.**
+![alt text](https://github.com/fpdaiber/IDD-Fa19-Lab3/blob/master/IMG_2438.jpg)
 
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
+
+I have changed the write and read example code so that the accelerometer's x variable is converted and stored into the memory and then read out. It does that in a loop every 2 seconds. 
+
+[My Data Logger](https://drive.google.com/open?id=1TAHan60fghWIMEWZ-vNUmiHDqy9LhT3R)
